@@ -8,6 +8,7 @@
                 "out/scripts/vendors/react/JSXTransformer.js",
                 "out/scripts/vendors/react/react.js",
                 "out/scripts/vendors/backbone-react-component/lib/component.js"
+                "out/scripts/entry.js"
             ],
             "dest": "out/scripts/all.min.js"
         },
