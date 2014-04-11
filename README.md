@@ -8,8 +8,8 @@ A barebones docpad project which will render an example "user widget"
 1. Clone the project and run the server
 
 	``` bash
-	git clone git://github.com/lukekarrys/html5-boilerplate.docpad.git
-	cd html5-boilerplate.docpad
+	git clone git://github.com/iredmedia/bb-react-component-example.git
+	cd bb-react-component-example
 	npm install
 	docpad run
 	```
