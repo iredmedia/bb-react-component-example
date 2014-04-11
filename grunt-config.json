@@ -1,0 +1,25 @@
+{
+    "concat": {
+        "js": {
+            "src": [
+                "out/scripts/vendors/jquery/dist/jquery.js",
+                "out/scripts/vendors/underscore/underscore.js",
+                "out/scripts/vendors/backbone/backbone.js",
+                "out/scripts/vendors/react/JSXTransformer.js",
+                "out/scripts/vendors/react/react.js",
+                "out/scripts/vendors/backbone-react-component/lib/component.js"
+            ],
+            "dest": "out/scripts/all.min.js"
+        },
+        "css": {
+            "src": ["out/vendor/normalize.css", "out/styles/style.css"],
+            "dest": "out/styles/all.css"
+        }
+    },
+    "cssmin": {
+        "all": {
+            "src": ["out/styles/all.css"],
+            "dest": "out/styles/all.min.css"
+        }
+    }
+}
